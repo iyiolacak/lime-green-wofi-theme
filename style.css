@@ -1,0 +1,92 @@
+/* github @iyiolacak */
+/* thanks for wofi styling docs: https://cloudninja.pw/docs/wofi.html */
+/* put this css file under ~/.config/wofi/ */
+window {
+  margin: 0px;
+  border: 1px solid #141414;
+  background-color: #0A0908;
+  border-radius: 0px;
+  font-family: Inter, system-ui, sans-serif;
+  font-weight: 400
+}
+
+#input {
+  margin: 8px;
+  padding: 8px 6px;
+  border: 0px solid #3a3a3a;
+  background-color: #141414;
+  border-radius: 4px;
+  color: #BAFF29;
+  font-size: 20px;
+}
+
+#input:focus {
+  border-color: #BAFF29;
+  outline: none;
+}
+
+#inner-box {
+  margin: 0px;
+  border: none;
+  background-color: transparent;
+}
+
+#outer-box {
+  margin: 4px;
+  border: none;
+  background-color: transparent;
+}
+
+#scroll {
+  margin: 0px;
+  border: none;
+  background-color: transparent;
+}
+
+/* Kill all native outlines and borders on entries */
+#entry {
+  outline: none;
+  border: none;
+}
+
+#entry:selected {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+#entry:focus {
+  outline: none;
+  border: none;
+}
+
+#text {
+  margin: 2px 4px;
+  padding: 6px 12px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #CED3DC;
+  border-radius: 4px;
+}
+
+/* Explicitly remove all outlines and use clean solid background */
+#text:selected {
+  background-color: #BAFF29;
+  font-weight: 500;
+  color: #070707;
+  outline: none;
+  border: none;
+}
+
+#text:hover {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  outline: none;
+  border: none;
+}
+
+#text:focus {
+  outline: none;
+  border: none;
+}
